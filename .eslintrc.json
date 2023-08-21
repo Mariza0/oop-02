@@ -1,0 +1,20 @@
+{
+    "extends": "airbnb-base",
+    "env": {
+       "es6": true,
+       "browser": true,
+       "jest": true
+    },
+    "rules": {
+      "no-restricted-syntax": [
+        "error",
+        "LabeledStatement",
+        "WithStatement"
+      ],
+      "class-methods-use-this": ["error", { "exceptMethods": ["validate"] }],
+      "no-constructor-return": "off",
+      "no-unused-vars": "off",
+      "no-useless-constructor": "off",
+      "consistent-return": "off"
+    }
+  }
