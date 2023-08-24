@@ -41,7 +41,7 @@ test('use method levelUp throw error when health = 0', () => {
   expect(result).toThrow(new Error('нельзя повысить левел умершего!'));
 });
 
-test('use method damage', () => {
+test('use method damage with helth = 100', () => {
   const object = new Bowman('bowman');
   object.damage(20);
   const expectation = {
@@ -50,12 +50,12 @@ test('use method damage', () => {
   expect(object).toEqual(expectation);
 });
 
-test('use method damage with health < 0', () => {
+test('use method damage with health = 0', () => {
   const object = new Bowman('bowman');
-  object.health = -10;
+  object.health = 0;
   object.damage(20);
   const expectation = {
-    name: 'bowman', type: 'Bowman', health: -10, level: 1, attack: 25, defence: 25,
+    name: 'bowman', type: 'Bowman', health: 0, level: 1, attack: 25, defence: 25,
   };
   expect(object).toEqual(expectation);
 });
