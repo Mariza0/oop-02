@@ -1,42 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1692567151760" clover="3.2.0">
-  <project timestamp="1692567151760" name="All files">
-    <metrics statements="30" coveredstatements="30" conditionals="11" coveredconditionals="11" methods="7" coveredmethods="7" elements="48" coveredelements="48" complexity="0" loc="30" ncloc="30" packages="1" files="2" classes="2"/>
-    <file name="bowman.js" path="/Users/nikolyazamyatin/05-classes-inheritance/02/src/js/bowman.js">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+<coverage generated="1692890864768" clover="3.2.0">
+  <project timestamp="1692890864768" name="All files">
+    <metrics statements="37" coveredstatements="37" conditionals="11" coveredconditionals="11" methods="9" coveredmethods="9" elements="57" coveredelements="57" complexity="0" loc="37" ncloc="37" packages="1" files="7" classes="7"/>
+    <file name="bowerman.js" path="/Users/nikolyazamyatin/05-classes-inheritance/02/src/js/class/bowerman.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="5" count="5" type="stmt"/>
       <line num="6" count="5" type="stmt"/>
+      <line num="7" count="5" type="stmt"/>
     </file>
-    <file name="character.js" path="/Users/nikolyazamyatin/05-classes-inheritance/02/src/js/character.js">
-      <metrics statements="28" coveredstatements="28" conditionals="11" coveredconditionals="11" methods="6" coveredmethods="6"/>
-      <line num="3" count="9" type="stmt"/>
-      <line num="4" count="9" type="stmt"/>
-      <line num="6" count="3" type="stmt"/>
-      <line num="8" count="6" type="stmt"/>
-      <line num="9" count="6" type="stmt"/>
-      <line num="10" count="6" type="stmt"/>
-      <line num="11" count="6" type="stmt"/>
-      <line num="12" count="6" type="stmt"/>
-      <line num="13" count="6" type="stmt"/>
-      <line num="17" count="9" type="cond" truecount="5" falsecount="0"/>
-      <line num="18" count="2" type="stmt"/>
-      <line num="20" count="7" type="stmt"/>
-      <line num="21" count="7" type="cond" truecount="2" falsecount="0"/>
-      <line num="22" count="1" type="stmt"/>
-      <line num="27" count="6" type="stmt"/>
-      <line num="35" count="6" type="stmt"/>
-      <line num="39" count="6" type="stmt"/>
-      <line num="47" count="6" type="stmt"/>
-      <line num="51" count="2" type="stmt"/>
-      <line num="52" count="2" type="stmt"/>
-      <line num="53" count="2" type="stmt"/>
-      <line num="54" count="2" type="stmt"/>
-      <line num="55" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="56" count="1" type="stmt"/>
-      <line num="57" count="1" type="stmt"/>
-      <line num="59" count="1" type="stmt"/>
-      <line num="64" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="65" count="1" type="stmt"/>
+    <file name="character.js" path="/Users/nikolyazamyatin/05-classes-inheritance/02/src/js/class/character.js">
+      <metrics statements="19" coveredstatements="19" conditionals="11" coveredconditionals="11" methods="3" coveredmethods="3"/>
+      <line num="2" count="7" type="stmt"/>
+      <line num="5" count="14" type="cond" truecount="5" falsecount="0"/>
+      <line num="6" count="2" type="stmt"/>
+      <line num="8" count="12" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="11" count="11" type="stmt"/>
+      <line num="12" count="11" type="stmt"/>
+      <line num="13" count="11" type="stmt"/>
+      <line num="14" count="11" type="stmt"/>
+      <line num="15" count="11" type="stmt"/>
+      <line num="16" count="11" type="stmt"/>
+      <line num="20" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="30" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="31" count="1" type="stmt"/>
+    </file>
+    <file name="daemon.js" path="/Users/nikolyazamyatin/05-classes-inheritance/02/src/js/class/daemon.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+    </file>
+    <file name="magician.js" path="/Users/nikolyazamyatin/05-classes-inheritance/02/src/js/class/magician.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+    </file>
+    <file name="swordsman.js" path="/Users/nikolyazamyatin/05-classes-inheritance/02/src/js/class/swordsman.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+    </file>
+    <file name="undead.js" path="/Users/nikolyazamyatin/05-classes-inheritance/02/src/js/class/undead.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+    </file>
+    <file name="zombie.js" path="/Users/nikolyazamyatin/05-classes-inheritance/02/src/js/class/zombie.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
